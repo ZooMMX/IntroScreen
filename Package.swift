@@ -19,8 +19,5 @@ let package = Package(
             name: "IntroScreen",
             dependencies: [],
             path: "IntroScreen"),
-        .testTarget(
-            name: "IntroScreenTests",
-            dependencies: ["IntroScreen"]),
     ]
 )

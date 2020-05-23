@@ -5,7 +5,6 @@ let package = Package(
     name: "IntroScreen",
     platforms: [
         .iOS(.v12),
-        .iOS(.v13)
     ],
     products: [
         .library(

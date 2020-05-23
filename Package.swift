@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "IntroScreen",
-            path: "IntroScreen",
-            dependencies: []),
+            dependencies: [],
+            path: "IntroScreen"),
         .testTarget(
             name: "IntroScreenTests",
             dependencies: ["IntroScreen"]),
